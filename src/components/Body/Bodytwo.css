@@ -1,0 +1,142 @@
+.services{
+    margin-top: 90px;
+    height: 100vh;
+}
+.sub-service{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 90px;
+  flex-wrap: wrap;
+}
+
+.feature{
+display: flex;
+}
+
+.service-para{
+    font-size: small;
+    font-weight: 500;
+    color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    width: 160px;
+    text-align: left;
+}
+.partition{
+    background: grey;
+    width: 1px;
+    height: 100px;
+}
+.service-feature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    flex-wrap: wrap;
+}
+.ser-inr-img{
+    height: 415px;
+}
+
+
+.service-highlights{
+    display: flex;
+    flex-flow: column;
+    text-align: left;
+    /* width: 52%; */
+    width: 36%
+}
+.highlight-1{
+    font-size: medium;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.highlight-2{
+    font-weight: 700;
+    /* width: 52%; */
+    width: 75%;
+    margin-bottom: 20px;
+}
+.highlight-3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}
+.inr-highlight{
+    width: 40%;
+}
+
+.high-heading{
+    display: flex;
+    gap: 5px;
+}
+.high-h{
+    height: 1rem;
+}
+.high-feature{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.high-para{
+    color: grey;
+    font-size: small;
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 70%; */
+}
+@media only screen and (max-width: 885px){
+
+.feature>span{
+    font-size:1.2 ;
+}
+
+.service-header{
+    font-size: 1.2remS;
+}
+.sub-service{
+    gap: 5px;
+}
+
+.service-para{
+    width: 80px;
+    font-size: xx-small;
+}
+
+.service-feature{
+    gap: 20px;
+}
+
+.service-highlights{
+    
+}
+.highlight-3{
+    gap: 10px;
+}
+
+.highlight-2{
+    width: auto;
+    font-size: 1.2rem;
+}
+
+.highlight-1{
+    display: flex;
+}
+.high-para{
+    font-size: x-small;
+}
+.high-feature{
+    font-size: 10px;
+}
+.ser-inr-img{
+ height: 200px;
+}
+.inr-highlight{
+    width: 45%;
+}
+.high-h{
+    height: 10px;
+}
+}

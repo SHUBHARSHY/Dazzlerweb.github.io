@@ -1,0 +1,92 @@
+.social{
+    
+    background-color: #f9f9f9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+    height: 510px;
+    width: 100%;
+}
+
+.social-png{
+    height: 415px;
+}
+
+
+.inr-social{
+    width: 32%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+
+
+.social-1{
+    text-align: left;
+}
+
+
+.social-head{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+.img-container{
+    display: flex;
+    align-items: center;
+}
+
+.social-para{
+    font-size: small;
+    color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+
+.social-2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social-btn{
+    outline: none;
+    border: none;
+    background-color: rgb(235, 53, 84);
+    color: white;
+    width: 150px;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-radius: 5px;
+}
+.social-btn:hover{
+    background-color:#232323;
+}
+
+.social-ancr{
+    color: black;
+    line-height: 37px;
+    margin-left: 25px;
+    font-size: small;
+    font-weight: 500;
+}
+@media only screen and (max-width: 660px){
+
+.social-head{
+    font-size: 1.5rem;
+}
+
+.social-1{
+    font-size: small;
+}
+.social-png{
+    height: 200px;
+}
+}

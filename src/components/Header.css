@@ -1,0 +1,170 @@
+.Header{
+    flex-wrap: wrap;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    font-weight: 700;
+    height: 76px;
+    border: 1px solid #e3e3e3;
+}
+
+.nav{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 0px 65px;
+    width: 90%;
+    background-color: #fff;
+    font-weight: 700;
+    height: 74px;
+    
+}
+
+.nav-1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.5rem;
+}
+
+.nav-1 > span{
+    font-size: 32px;
+    color: rgb(235, 53, 84);
+}
+.nav-2{
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+    padding: 15px 0px 0;
+    font-size: large;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    gap: 21px;
+}
+
+
+.nav-list:hover{
+    color:rgb(235, 53, 84) ;
+}
+
+.nav-list{
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+
+.nav-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+    width: 36%;
+}
+
+.menu{
+    height: 15px;
+    margin: 11px;
+}
+
+.drop-down{
+    height: 10px;
+}
+.drop-down-search{
+    height: 16px;
+}
+
+.drop-down-cart{
+    height: 16px;
+}
+
+
+
+.contact{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+   
+}
+
+.phone{
+    font-size: 32px;
+    color: rgb(235, 53, 84);
+}
+.contact-btn{
+    border: none;
+    background: rgb(235, 53, 84);
+    color: white;
+    border-radius: 4px;
+    width: 25%;
+    height: 45%;
+}
+
+.contact-btn:hover{
+    background: #232323;
+}
+
+
+.mobile-menu{
+    display: none;
+}
+.open-btn{
+    padding-top: 10px;
+    padding-left: 0px;
+    width: 50px;
+}
+
+@media only screen and (max-width: 1115px){
+    .mobile-menu{
+        display: flex;
+
+    }
+    .nav-2{
+        display: none;
+    }
+   
+    .nav{
+        margin: 0;
+        flex-flow: row;
+    }
+    .nav-3{
+        width: 74%;
+        gap: 15px;
+    }
+
+    .contact{
+        font-size: x-small;
+    }
+
+    .contact-btn{
+        font-size: x-small;
+        width: 70px;
+        height: 30%;
+    }
+    .contact-btn:hover{
+        font-size: x-small;
+    }
+    .nav-1{
+        font-size: 1.2rem;
+        margin-left: 10px;
+    }
+
+    .nav-1 > span{
+        font-size: 25px;
+    }
+    .phone{
+        font-size: 20px;
+    }.nav{
+        width: 100%;
+    }
+
+}

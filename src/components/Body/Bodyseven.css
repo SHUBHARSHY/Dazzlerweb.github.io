@@ -1,0 +1,123 @@
+.bodyseven{
+    background-color: #0e0e0e;
+    width: 100%;
+min-height: 51vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.sub-bodyseven{
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+}
+.body7-1{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+.body7-2{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+.body7-3{
+width: 15%;
+}
+.body7-4{
+    display: flex;
+    flex-flow: column;
+}
+.body7-sine{
+color: white;
+display: flex;
+margin-right: 70px;
+}
+.body7-para{
+color: grey;
+font-size: small;
+text-align: left;
+margin: 2px;
+display: flex;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 30px 0px 0px;
+}
+
+.social-icon>img{
+    height: 30px;
+}
+.body7-head{
+color: white;
+text-align: left;
+}
+.body7-btn{
+    outline: none;
+    border: none;
+    background-color: rgb(235, 53, 84);
+    color: white;
+    width: 150px;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-radius: 5px;
+}
+.body7-btn:hover{
+    background-color: #232323;
+    border: 1px solid whitesmoke;
+}
+.body7-input{
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    width: 215px;
+    height: 6vh;
+    text-align: center;
+    
+    margin: 20px 0px 20px 0px;
+}
+
+@media only screen and (max-width: 820px){
+
+    .sub-bodyseven{
+        gap: 20px;
+    }
+    .body7-para{
+        font-size: x-small;
+        
+    }
+    .body7-head{
+        font-size: 1rem;
+    }
+    .body7-input{
+        width: 90px;
+        height: 3vh;
+        font-size: x-small;
+    }
+    .body7-btn{
+        width: 70px;
+        font-size: x-small;
+        height: 25px;
+    }
+    .body7-sine{
+        font-size: 1rem;
+        flex-wrap: wrap;
+        margin-right: 0px;
+    }
+
+    .social-icon{
+        
+    margin: 10px 0px 0px 0px;
+    gap: 5px;
+    }
+    .social-icon>img{
+        height: 15px;
+    }
+}

@@ -1,0 +1,82 @@
+.bodyfour{
+display: flex;
+width: 100%;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+height: 582px;
+}
+.sub-bodyfour{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.inr-bodyfour{
+text-align: left;
+width: 40%;
+}
+
+.bodyfour-head{
+   margin-bottom: 20px;
+}
+.bodyfour-para{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: small;
+    margin-bottom: 20px;
+}
+.bodyfour-img{
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.bodyfour-pic{
+    height: 100px;
+}
+.bodyfour-btn{
+    outline: none;
+    border: none;
+    background-color: rgb(235, 53, 84);
+    color: white;
+    width: 150px;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.bodyfour-btn:hover{
+    background-color: #232323;
+}
+.inr2-bodyfour-img{
+    height: 415px;
+}
+@media only screen and (max-width: 630px){
+
+.bodyfour-head{
+    font-size: 1.2rem;
+}
+.bodyfour-para{
+    font-size: x-small;
+}
+.inr-bodyfour{
+    width: 50%;
+}
+
+.bodyfour-pic{
+    height: 49px;
+}
+.bodyfour-btn{
+    
+    width: 100px;
+    font-size: x-small;
+    height: 30px;
+}
+.inr2-bodyfour-img{
+    height: 200px;
+}
+}

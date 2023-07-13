@@ -1,0 +1,85 @@
+.team{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* min-height: 100vh; */
+}
+.inr-team{
+margin-top: 100px;
+}
+.our-team{
+color: white;
+}
+.experience-team{
+color: white;
+}
+.team-members{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 27px;
+    flex-wrap: wrap;
+    margin-top: 135px;
+}
+.member{
+    background: #2d2c2c;
+    width: 200px;
+    height: 170px;
+    border-radius: 10px;
+}
+.member:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+.member-img{
+    height: 165px;
+    border-radius: 10px;
+}
+.team-para{
+    margin: 10px 0px 0px 0px;
+    color: rgb(235, 53, 84);
+}
+
+.team-para1{
+    font-size: small;
+    color: grey;
+}
+.mem-details{
+    margin-top: -75px;
+}
+
+@media only screen and (max-width: 884px){
+
+.member-img{
+    height: 65px;
+}
+.member{
+    width: 19%;
+    height: 10vh;
+}
+.mem-details{
+    margin-top: -25px;
+}
+.team-members{
+    margin-top: 85px;
+}
+.team-para {
+    margin: 0px 0px 0px 0px;
+    font-size: xx-small;
+}
+.team-para1 {
+    font-size: xx-small;
+}
+.inr-team{
+    margin-top: 0px;
+}
+.team{
+    height: 60vh;
+}
+}

@@ -1,0 +1,32 @@
+.Footer{
+    width: 100%;
+    height: 10vh;
+    background-color: #232323;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.sub-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 63%;
+}
+.footer-para{
+color: grey;
+font-size: small;
+}
+.para-contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+@media only screen and (max-width: 800px){
+.sub-footer{
+    width: 95%;
+}
+.footer-para{
+    font-size: x-small;
+}
+}
